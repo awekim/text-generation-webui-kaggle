@@ -232,6 +232,6 @@ if __name__ == "__main__":
         if shared.need_restart:
             shared.need_restart = False
             time.sleep(0.5)
-            shared.gradio['interface'].close()
+            # shared.gradio['interface'].close()
             time.sleep(0.5)
             create_interface()
